@@ -769,10 +769,10 @@
     node-cache "^5.1.2"
     node-fetch "^2.6.7"
 
-"@roq/ui-react@^0.1.16":
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/@roq/ui-react/-/ui-react-0.1.16.tgz#49a1a40bd406857ba46a0a3b9d697cc9cf261214"
-  integrity sha512-gwdU8jM6havmPH3TDkweBJlo0AMQFVhhhGhG3IGP/5+n9vWimBlA7Cgl8SvA942p0VLv9nRc3c/09N5x+tCReQ==
+"@roq/ui-react@^0.1.18":
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/@roq/ui-react/-/ui-react-0.1.18.tgz#02506201dac5a99baa216d5dfe5776655c218cac"
+  integrity sha512-ee6M94Yj4kCZ0cz3la1WNrM8nf8YqtfNLb8CtlFzFYb/pDttwIb71xnUIEV9ZTODhTtL79K8PotZZr+u1J+hpA==
   dependencies:
     "@ant-design/icons" "^4.8.0"
     "@apollo/client" "^3.7.1"
@@ -783,6 +783,7 @@
     "@lexical/react" "^0.7.5"
     "@mui/icons-material" "^5.10.16"
     "@mui/material" "^5.10.17"
+    "@vinhnguyen1211/react-tag-input-component" "^2.0.3"
     antd "^5.0.4"
     axios "^1.2.2"
     classnames "^2.3.2"
@@ -796,12 +797,15 @@
     jwt-decode "^3.1.2"
     lexical "^0.7.5"
     lodash "^4.17.21"
+    mdast-util-find-and-replace "^2.2.1"
     node-polyfill-webpack-plugin "^2.0.1"
     parse-url "^8.1.0"
     react-dropzone "^14.2.3"
+    react-file-icon "^1.3.0"
     react-infinite-scroll-hook "^4.0.4"
     react-markdown "^8.0.3"
-    react-select "^5.6.0"
+    react-select "^5.7.0"
+    react-tag-input-component "^2.0.2"
     react-time-ago "^7.2.1"
     react-use "^17.4.0"
     rehype-external-links "^2.0.1"
@@ -815,6 +819,8 @@
     sass "^1.49.0"
     socket.io-client "^4.4.0"
     tailwindcss "^3.2.4"
+    unist-util-is "^5.1.1"
+    unist-util-visit "^4.1.1"
     uuid "^9.0.0"
     xml-js "^1.6.11"
     yup "^0.32.11"
@@ -1004,6 +1010,11 @@
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/@unicode/unicode-13.0.0/-/unicode-13.0.0-1.3.1.tgz#cd7c5ea4ec11b2af7d2b6e1e07eda3f1d09d032f"
   integrity sha512-MzmvcjTjaZeCdl0aDIelNGI4dIwNN7ljmXIelsoQY10pWCi84dyQHtHw1r3gNALI/PU2OOzOYD0yjrYuPo9QyA==
+
+"@vinhnguyen1211/react-tag-input-component@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@vinhnguyen1211/react-tag-input-component/-/react-tag-input-component-2.0.3.tgz#549e87538c4d3e50a55928dc41f387a648328194"
+  integrity sha512-IYwMRPaeOotGUVIKInMkFBOySbFHvkuJxAEq99cC+Ld4dqDj+puvMi/kqiYAs3NdyzkaPcNr8bZgpnVZNg8EuA==
 
 "@wry/context@^0.7.0":
   version "0.7.0"
@@ -1627,6 +1638,11 @@ color@^4.2.3:
     color-convert "^2.0.1"
     color-string "^1.9.0"
 
+colord@^2.9.3:
+  version "2.9.3"
+  resolved "https://registry.yarnpkg.com/colord/-/colord-2.9.3.tgz#4f8ce919de456f1d5c1c368c307fe20f3e59fb43"
+  integrity sha512-jeC1axXpnb0/2nn/Y1LPuLdgXBLH7aDcHu4KEKfqw3CUhX7ZpfBSlPKyqXE6btIgEzfWtrX3/tyBCaCvXvMkOw==
+
 combined-stream@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
@@ -2174,6 +2190,11 @@ escape-string-regexp@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
+
+escape-string-regexp@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-5.0.0.tgz#4683126b500b61762f2dbebace1806e8be31b1c8"
+  integrity sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==
 
 eslint-config-next@13.1.1:
   version "13.1.1"
@@ -3455,6 +3476,11 @@ lodash.merge@^4.6.2:
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
+lodash.uniqueid@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/lodash.uniqueid/-/lodash.uniqueid-4.0.1.tgz#3268f26a7c88e4f4b1758d679271814e31fa5b26"
+  integrity sha512-GQQWaIeGlL6DIIr06kj1j6sSmBxyNMwI8kaX9aKpHR/XsMTiaXDVPNPAkiboOTK9OJpTJF/dXT3xYoFQnj386Q==
+
 lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
@@ -3498,6 +3524,15 @@ mdast-util-definitions@^5.0.0:
     "@types/mdast" "^3.0.0"
     "@types/unist" "^2.0.0"
     unist-util-visit "^4.0.0"
+
+mdast-util-find-and-replace@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/mdast-util-find-and-replace/-/mdast-util-find-and-replace-2.2.1.tgz#249901ef43c5f41d6e8a8d446b3b63b17e592d7c"
+  integrity sha512-SobxkQXFAdd4b5WmEakmkVoh18icjQRxGy5OWTCzgsLRm1Fu/KCtwD1HIQSsmq5ZRjVH0Ehwg6/Fn3xIUk+nKw==
+  dependencies:
+    escape-string-regexp "^5.0.0"
+    unist-util-is "^5.0.0"
+    unist-util-visit-parents "^5.0.0"
 
 mdast-util-from-markdown@^1.0.0:
   version "1.2.0"
@@ -4854,6 +4889,15 @@ react-fast-compare@^2.0.1:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
 
+react-file-icon@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/react-file-icon/-/react-file-icon-1.3.0.tgz#185233e0ce197444c1081128644062f85d01d4d6"
+  integrity sha512-wxl/WwSX5twQKVXloPHbS71iZQUKO84KgZ44Kh7vYZGu1qH2kagx+RSTNfk/+IHtXfjPWPNIHPGi2Y8S94N1CQ==
+  dependencies:
+    colord "^2.9.3"
+    lodash.uniqueid "^4.0.1"
+    prop-types "^15.7.2"
+
 react-infinite-scroll-hook@^4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/react-infinite-scroll-hook/-/react-infinite-scroll-hook-4.0.4.tgz#616e66ba1de6421f74cd37d652e5b8c26c886373"
@@ -4902,7 +4946,7 @@ react-property@2.0.0:
   resolved "https://registry.yarnpkg.com/react-property/-/react-property-2.0.0.tgz#2156ba9d85fa4741faf1918b38efc1eae3c6a136"
   integrity sha512-kzmNjIgU32mO4mmH5+iUyrqlpFQhF8K2k7eZ4fdLSOPFrD1XgEuSBv9LDEgxRXTMBqMd8ppT0x6TIzqE5pdGdw==
 
-react-select@^5.6.0:
+react-select@^5.7.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/react-select/-/react-select-5.7.0.tgz#82921b38f1fcf1471a0b62304da01f2896cd8ce6"
   integrity sha512-lJGiMxCa3cqnUr2Jjtg9YHsaytiZqeNOKeibv6WF5zbK/fPegZ1hg3y/9P1RZVLhqBTs0PfqQLKuAACednYGhQ==
@@ -4916,6 +4960,11 @@ react-select@^5.6.0:
     prop-types "^15.6.0"
     react-transition-group "^4.3.0"
     use-isomorphic-layout-effect "^1.1.2"
+
+react-tag-input-component@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-tag-input-component/-/react-tag-input-component-2.0.2.tgz#f62f013c6a535141dd1c6c3a88858223170150f1"
+  integrity sha512-dydI9luVwwv9vrjE5u1TTnkcOVkOVL6mhFti8r6hLi78V2F2EKWQOLptURz79UYbDHLSk6tnbvGl8FE+sMpADg==
 
 react-time-ago@^7.2.1:
   version "7.2.1"
@@ -5783,7 +5832,7 @@ unist-util-is@^4.0.0:
   resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-4.1.0.tgz#976e5f462a7a5de73d94b706bac1b90671b57797"
   integrity sha512-ZOQSsnce92GrxSqlnEEseX0gi7GH9zTJZ0p9dtu87WRb/37mMPO2Ilx1s/t9vBHrFhbgweUwb+t7cIn5dxPhZg==
 
-unist-util-is@^5.0.0:
+unist-util-is@^5.0.0, unist-util-is@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-5.1.1.tgz#e8aece0b102fa9bc097b0fef8f870c496d4a6236"
   integrity sha512-F5CZ68eYzuSvJjGhCLPL3cYx45IxkqXSetCcRgUXtbcm50X2L9oOWQlfUfDdAf+6Pd27YDblBfdtmsThXmwpbQ==
@@ -5810,7 +5859,7 @@ unist-util-visit-parents@^3.0.0:
     "@types/unist" "^2.0.0"
     unist-util-is "^4.0.0"
 
-unist-util-visit-parents@^5.1.1:
+unist-util-visit-parents@^5.0.0, unist-util-visit-parents@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-5.1.1.tgz#868f353e6fce6bf8fa875b251b0f4fec3be709bb"
   integrity sha512-gks4baapT/kNRaWxuGkl5BIhoanZo7sC/cUT/JToSRNL1dYoXRFl75d++NkjYk4TAu2uv2Px+l8guMajogeuiw==
@@ -5827,7 +5876,7 @@ unist-util-visit@^2.0.3:
     unist-util-is "^4.0.0"
     unist-util-visit-parents "^3.0.0"
 
-unist-util-visit@^4.0.0:
+unist-util-visit@^4.0.0, unist-util-visit@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-4.1.1.tgz#1c4842d70bd3df6cc545276f5164f933390a9aad"
   integrity sha512-n9KN3WV9k4h1DxYR1LoajgN93wpEi/7ZplVe02IoB4gH5ctI1AaF2670BLHQYbwj+pY83gFtyeySFiyMHJklrg==
